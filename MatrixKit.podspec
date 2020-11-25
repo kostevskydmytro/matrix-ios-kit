@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
 
   s.swift_version = '5.0'
 
+  s.dependency 'kostevskydmytro/MatrixSDK', "= 0.17.3"
   s.dependency 'HPGrowingTextView', '~> 1.1'
   s.dependency 'libPhoneNumber-iOS', '~> 0.9.13'
   s.dependency 'DTCoreText', '~> 1.6.23'
